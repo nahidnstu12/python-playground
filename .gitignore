@@ -2,3 +2,4 @@
 # *.py 
 # !app.py
 *.json
+*.csv
