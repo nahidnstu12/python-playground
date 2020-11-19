@@ -4,4 +4,7 @@
 
 - Exercise
     - Sentence Maker
-    - 
+    - Pandas
+    - Set, Tuple, List, Dictionary
+    - Folium Map (Web)
+    
