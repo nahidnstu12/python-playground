@@ -12,7 +12,7 @@ def sentence_maker (phrase):
 
 results = []
 while True:
-    user_input = raw_input("Say Something: ")
+    user_input = input("Say Something: ")
 
     if(user_input == "/end"):
         break

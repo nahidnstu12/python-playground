@@ -11,7 +11,7 @@ def translate(w):
     if w in data:
         return data[w]
     elif len(matches) > 0 :
-        yn =raw_input("Did you mean %s instaed?If yes,type Y otherwise N: " % matches[0])
+        yn =input("Did you mean %s instaed?If yes,type Y otherwise N: " % matches[0])
         if yn == "Y":
             return data[matches[0]]
         elif yn == "N":
@@ -22,7 +22,7 @@ def translate(w):
         return "The word doesn't exist. Please double check"
 
 
-word = raw_input("Enter word: ")   
+word = input("Enter word: ")   
 
 # print(translate(word))
 
